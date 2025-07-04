@@ -9,7 +9,11 @@ body{
     color:#0D1F2D;
     font-size: 25px;
 }
-
+.main-container{
+    display: grid;
+    place-content: center;
+    padding: 2rem;
+}
 .container{
     height:500px;
      display:flex;
@@ -34,8 +38,8 @@ body{
     border:none;
     box-shadow: 0px 4px 8px  gray;
     font-size: 70px;  
-    color:#0D1F2D
- 
+    color:#0D1F2D;
+    cursor: pointer;
 }
 .reset{
     height:30px;
@@ -54,7 +58,7 @@ body{
     border:none;
     border-radius: 4px;
     box-shadow: 0px 2px 3px gray;
-    
+    cursor: pointer;
 
 }
 .hide{
