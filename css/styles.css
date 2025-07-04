@@ -49,6 +49,7 @@ body{
     border:none;
     border-radius: 4px;
     box-shadow: 0px 2px 3px gray;
+    cursor: pointer;
 }
 .newbtn{
     height:30px;
